@@ -32,3 +32,6 @@ person = {
 #   {:latitude=>37.7833, :longitude=>122.4167}
 #
 #------- your code below here ---------
+
+p person["address"].keys
+p person["address"].values

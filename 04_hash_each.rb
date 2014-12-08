@@ -24,3 +24,8 @@ person = {
 #   "zip_code is 94104"
 #
 #------- your code below here ---------
+
+p "street is #{person["address"][:street]}"
+p "city is #{person["address"][:city]}"
+p "state is #{person["address"][:state]}"
+p "zipcode is #{person["address"][:zip_code]}"
