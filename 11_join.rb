@@ -23,3 +23,10 @@ person = {
 #   "address,favorite_foods,favorite_sport,first_name,last_name,wears_glasses"
 #
 #------- your code below here ---------
+keys = ""
+person.keys.sort.each do |key|
+  keys << "#{key},"
+end
+
+# p keys.chomp(",")
+p keys.chop
